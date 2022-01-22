@@ -1,28 +1,26 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>TasmoCompiler</Name>
+  <Name>tasmocompiler</Name>
   <Repository>benzino77/tasmocompiler</Repository>
   <Registry>https://hub.docker.com/r/benzino77/tasmocompiler</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/118925-support-oldcrazyeye-templates/</Support>
   <Project>https://github.com/benzino77/tasmocompiler</Project>
-  <Overview>TasmoCompiler is a simple web GUI which allows you to compile fantastic Tasmota firmware with your own settings&#xD;
-</Overview>
-  <Category>HomeAutomation: Tools: Status:Stable</Category>
+  <Overview>TasmoCompiler is a simple web GUI which allows you to compile fantastic Tasmota firmware with your own settings</Overview>
+  <Category>HomeAutomation: Tools:</Category>
   <WebUI>http://[IP]:[PORT:3003]</WebUI>
   <TemplateURL/>
   <Icon>https://i.imgur.com/r0aWv9M.jpg</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1642817534</DateInstalled>
+  <DateInstalled>1642819281</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>TasmoCompiler is a simple web GUI which allows you to compile fantastic Tasmota firmware with your own settings&#xD;
-</Description>
+  <Description>TasmoCompiler is a simple web GUI which allows you to compile fantastic Tasmota firmware with your own settings</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
