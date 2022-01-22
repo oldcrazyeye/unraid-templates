@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>TasmoCompiler</Name>
+  <Repository>benzino77/tasmocompiler</Repository>
+  <Registry>https://hub.docker.com/r/benzino77/tasmocompiler</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/benzino77/tasmocompiler</Project>
+  <Overview>TasmoCompiler is a simple web GUI which allows you to compile fantastic Tasmota firmware with your own settings&#xD;
+</Overview>
+  <Category>HomeAutomation: Tools: Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:3003]</WebUI>
+  <TemplateURL/>
+  <Icon>https://i.imgur.com/r0aWv9M.jpg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1642817534</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>TasmoCompiler is a simple web GUI which allows you to compile fantastic Tasmota firmware with your own settings&#xD;
+</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3003</HostPort>
+        <ContainerPort>3000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="WebUI" Target="3000" Default="3003" Mode="tcp" Description="Container Port: 3000" Type="Port" Display="always" Required="false" Mask="false">3003</Config>
+</Container>
