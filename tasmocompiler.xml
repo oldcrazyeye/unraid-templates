@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/118925-support-oldcrazyeye-templates/</Support>
   <Project>https://github.com/benzino77/tasmocompiler</Project>
-  <Overview>TasmoCompiler is a simple web GUI which allows you to compile fantastic Tasmota firmware with your own settings</Overview>
+  <Overview>TasmoCompiler is a simple web GUI which allows you to compile fantastic Tasmota firmware with your own settings. **IMPORTANT NOTE** You have to remember that all compilation is performed on Gitpod servers, so you have to decide if you want to put sensitive data like Wifi/MQTT credentials to Gitpod hands.</Overview>
   <Category>HomeAutomation: Tools:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
